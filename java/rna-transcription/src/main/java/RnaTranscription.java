@@ -11,11 +11,11 @@ public class RnaTranscription {
                 case 'G':
                     dna[i] = 'C';
                     break;
-                case 'A':
-                    dna[i] = 'T';
-                    break;
-                case 'U':
+                case 'T':
                     dna[i] = 'A';
+                    break;
+                case 'A':
+                    dna[i] = 'U';
             }
         }
         return new String(dna);
