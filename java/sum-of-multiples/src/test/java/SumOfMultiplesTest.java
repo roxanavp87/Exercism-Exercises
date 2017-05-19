@@ -18,7 +18,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf3and5UpToFour() {
 
         int[] set = {
@@ -31,7 +30,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf3and5UpToTen() {
 
         int[] set = {
@@ -44,7 +42,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf3and5UpToOneHundred() {
 
         int[] set = {
@@ -57,7 +54,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf3and5UpToOneThousand() {
 
         int[] set = {
@@ -70,7 +66,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf7and13and17UpToTwenty() {
 
         int[] set = {
@@ -84,7 +79,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf4and6UpToFifteen() {
 
         int[] set = {
@@ -97,7 +91,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf5and6and8UpToOneHundredFifty() {
 
         int[] set = {
@@ -111,7 +104,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf5and25UpToTwoHundredSeventyFive() {
 
         int[] set = {
@@ -124,7 +116,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOf43and47UpToTenThousand() {
 
         int[] set = {
@@ -137,7 +128,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOfOneUpToOneHundred() {
 
         int[] set = {
@@ -149,7 +139,6 @@ public class SumOfMultiplesTest {
     }
 
     @Test
-    @Ignore("Remove to run test")
     public void testSumOfMultiplesOfNoneUpToTenThousand() {
 
         int[] set = {};
