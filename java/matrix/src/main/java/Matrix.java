@@ -16,18 +16,20 @@ public class Matrix {
         columnsCount = rows[0].split(" ").length;
         rowsCount = rows.length;
         matrix = new int[rowsCount][columnsCount];
-        String[][] Smatrix = new String[rowsCount][columnsCount];
-        int i = 0;
-        for (String row: rows) {
-            String[] digits = row.split(" "); //digits per row
-            Smatrix[i] = digits;
-            i++;
-        }
-
-        for(i=0; i<rowsCount; i++) {
+        for(int i=0; i<rowsCount; i++) {
+            String[] digits = rows[i].split(" ");
             for(int j=0; j<columnsCount; j++){
-                matrix[i][j] = Integer.parseInt(Smatrix[i][j]);
+                matrix[i][j] = Integer.parseInt(digits[j]);
             }
+        }
+    }
+
+    public void print() {
+        for(int i=0; i<rowsCount; i++) {
+            for(int j=0; j<columnsCount; j++){
+                System.out.println(matrix[i][j]);
+            }
+            System.out.println("\n");
         }
     }
 
@@ -49,5 +51,12 @@ public class Matrix {
 
     public int[] getRow(int index) {
         return matrix[index];
+    }
+
+    public static void main(String[] args) {
+        String matrixAsString = "1 2 3\n3 4 5\n";
+        Matrix matrix = new Matrix(matrixAsString);
+        matrix.print();
+        System.out.println(Arrays.toString(matrix.getColumn(0)));
     }
 }
